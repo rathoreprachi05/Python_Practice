@@ -1,10 +1,16 @@
-'''def Add(n):
+'''
+#-----------------------------------------------------------------
+
+# Basic function to add 10 to the given integer and return it
+def Add(n):
     print(n+10)
 n = int(input("Enter a number: "))
+Add(n)
 
-Add(n)'''
+#-----------------------------------------------------------------
 
-'''def Add(n):
+# Basic function to print next 10 numbers after the given integer
+def Add(n):
     for i in range(1, 11, 1):
         print(n+i)
 n = int(input("Enter a number: "))
