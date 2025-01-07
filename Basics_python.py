@@ -7,3 +7,5 @@ x = int(input("Enter the value of x"))
 Quad_eq = a * a * x + b * x + c
 
 print(Quad_eq)
+
+
