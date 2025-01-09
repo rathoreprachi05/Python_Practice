@@ -19,3 +19,7 @@ def checker(variable):
 variable = input("Enter variable's name: ")
 answer = checker(variable)
 print(answer)
+
+ # Write a program that evaluates a mathematical expression entered by the user as a string.
+
+
