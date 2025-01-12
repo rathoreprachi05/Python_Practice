@@ -23,6 +23,45 @@ print(answer)
 
 #------------------------------------------------------------------------------------
 
- # Write a program that evaluates a mathematical expression entered by the user as a string.
+# Write a program that evaluates a mathematical expression entered by the user as a string.
+# "12+23*4-21/3"
+def math(math_exp):
+  init = 0
+  answer = 0
+  operator = ""
+  for i in range(0, len(math_exp), 1):
+    if(math_exp[i] in "+-*/%"):
+      num = int(math_exp[init:i])
+      init = i + 1
+      if(operator == ""):
+        answer = num
+      elif(operator == "+"):
+        answer = num + answer
+      elif(operator == "-"):
+        answer = answer - num
+      elif(operator == "*"):
+        answer = num * answer
+      elif(operator == "/"):
+        answer /= num
+      operator = math_exp[i]
+  num = int(math_exp[init:])
+  init = i + 1
+  if(operator == ""):
+    answer = num
+  elif(operator == "+"):
+    answer = num + answer
+  elif(operator == "-"):
+    answer = answer - num
+  elif(operator == "*"):
+    answer = num * answer
+  elif(operator == "/"):
+    answer /= num
+  return answer
+math_exp = input("Enter the mathematical expression: ")
+ans = math(math_exp)
+print(ans)
+
+
+
 
 
