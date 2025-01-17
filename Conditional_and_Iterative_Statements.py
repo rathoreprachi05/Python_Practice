@@ -35,12 +35,12 @@ def permutation(list1):
 
   perm = []
   for i in range(0,len(list1),1):
-    current = list[i]
+    current = list1[i]
     remaining = list1[0:i] + list1[i+1:] 
-    for j in perm(remaining):
-      perm.append([current] + p) 
+    for j in permutation(remaining):
+      perm.append([current] + j) 
   return perm
-  list1 = list(map(int, input("Enter a list of numbers: ").split(" ")))
-  ans = permutation(list1)
-  for i in ans:
+list1 = list(map(int, input("Enter a list of numbers: ").split(" ")))
+ans = permutation(list1)
+for i in ans:
     print(i)
