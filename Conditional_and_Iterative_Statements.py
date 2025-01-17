@@ -27,4 +27,20 @@ def collatz_conj(n):
   print(no_of_steps)
 n = int(input("Enter a number: "))
 collatz_conj(n)
-# Write a program to generate all possible permutations of a list of numbers
+# Write a program to generate all possible permutations of a list of numbers 
+# abc acb bac bca cba cab
+def permutation(list1):
+  if(len(list1) == 1):
+    return [list1]
+
+  perm = []
+  for i in range(0,len(list1),1):
+    current = list[i]
+    remaining = list1[0:i] + list1[i+1:] 
+    for j in perm(remaining):
+      perm.append([current] + p) 
+  return perm
+  list1 = list(map(int, input("Enter a list of numbers: ").split(" ")))
+  ans = permutation(list1)
+  for i in ans:
+    print(i)
