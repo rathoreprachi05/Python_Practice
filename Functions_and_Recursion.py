@@ -22,3 +22,8 @@ ans = hcf_finder(a,b)
 print(ans)
       
 # Implement a recursive function to determine if a string matches a given pattern (basic regex matching).
+
+# Write a recursive function to calculate the factorial of a number.
+# Create a function that calculates the nth Fibonacci number using recursion.
+# Write a function to find the sum of digits of a number.
+# Implement a function to check if a number is a power of two.
