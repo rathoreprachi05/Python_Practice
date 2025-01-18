@@ -31,6 +31,18 @@ def fact(n):
 a = int(input("Enter a number: "))
 factorial = fact(a)
 print(factorial)
+
 # Create a function that calculates the nth Fibonacci number using recursion.
+def fibonacci_series(n, a=1, b=1):
+  if(n == 1 or n == 2):
+      return 1
+  if(n == 3):
+    return a+b
+  return fibonacci_series(n-1, b, a+b)
+n = int(input("Enter a num: "))
+ans = fibonacci_series(n)
+print(ans)
+  
+  
 # Write a function to find the sum of digits of a number.
 # Implement a function to check if a number is a power of two.
