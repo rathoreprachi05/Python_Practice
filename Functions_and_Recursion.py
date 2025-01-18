@@ -24,6 +24,13 @@ print(ans)
 # Implement a recursive function to determine if a string matches a given pattern (basic regex matching).
 
 # Write a recursive function to calculate the factorial of a number.
+def fact(n):
+  if(n == 0):
+    return 1
+  return ( n * fact(n-1))
+a = int(input("Enter a number: "))
+factorial = fact(a)
+print(factorial)
 # Create a function that calculates the nth Fibonacci number using recursion.
 # Write a function to find the sum of digits of a number.
 # Implement a function to check if a number is a power of two.
