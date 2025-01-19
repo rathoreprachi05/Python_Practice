@@ -45,4 +45,13 @@ print(ans)
   
   
 # Write a function to find the sum of digits of a number.
+def Sum(n):
+   if(n / 10 == 0):
+       return n%10
+   r = n % 10
+   q = n // 10
+   return r + Sum(q)
+n = int(input("enter a num: "))
+ans = Sum(n)
+print(ans)
 # Implement a function to check if a number is a power of two.
