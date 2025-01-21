@@ -34,6 +34,8 @@ a = int(input("Enter a number: "))
 factorial = fact(a)
 print(factorial)
 
+#-----------------------------------------------------------------------------
+
 # Create a function that calculates the nth Fibonacci number using recursion.
 def fibonacci_series(n, a=1, b=1):
   if(n == 1 or n == 2):
