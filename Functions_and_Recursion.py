@@ -47,7 +47,7 @@ n = int(input("Enter a num: "))
 ans = fibonacci_series(n)
 print(ans)
   
-  
+#--------------------------------------------------------- 
 # Write a function to find the sum of digits of a number.
 def Sum(n):
    if(n / 10 == 0):
