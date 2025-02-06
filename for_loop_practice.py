@@ -49,7 +49,7 @@ n = list(map(int, input("Enter the elements of list: ").split(" ")))
 a,b = Add(n)
 print(a, b)
 
-#-----------------------------------------------------------------
+#---------------------------------------------------------------------------------
 
 # Function to return the count of multiples if 3 and 7 in a given list
 
@@ -66,7 +66,7 @@ n = list(map(int, input("Enter the elements of the list: ").split(" ")))
 a,b = multiples(n)
 print(a, b)
 '''
-#-----------------------------------------------------------------
+#------------------------------------------------------------------------------
 
 # Function to print first n terms of a fibonacci series
 
