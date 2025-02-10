@@ -17,6 +17,8 @@ def mul_table():
     for i in range(1, 11,1):
       print(j, "x", i, "=", j*i)
 mul_table()
+
+#.
 #-------------------------------------------------------------------------------------------------------------------------------------
 # Implement the Collatz Conjecture for a given positive integer input (reduce to 1 using `n = n/2` if even, and `n = 3*n + 1` if odd).
 def collatz_conj(n):
