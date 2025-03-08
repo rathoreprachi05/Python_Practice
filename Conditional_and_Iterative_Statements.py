@@ -32,7 +32,7 @@ def collatz_conj(n):
 n = int(input("Enter a number: "))
 collatz_conj(n)
 
-#-----------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 # Write a program to generate all possible permutations of a list of numbers 
 # abc acb bac bca cba cab
 def permutation(list1):
