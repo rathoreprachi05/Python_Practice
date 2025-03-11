@@ -51,4 +51,3 @@ ans = permutation(list1)
 for i in ans:
     print(i)
 #.
-
