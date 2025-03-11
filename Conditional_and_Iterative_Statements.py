@@ -1,5 +1,4 @@
-# Write a program to print all prime numbers between 1 and n.
-def prime_checker(n):
+# Write a program to print all prime numbers between 1 and n.def prime_checker(n):
   for j in range(2,n,1):
     for i in range(2, j, 1):
       if(j % i == 0):
@@ -50,4 +49,3 @@ list1 = list(map(int, input("Enter a list of numbers: ").split(" ")))
 ans = permutation(list1)
 for i in ans:
     print(i)
-#.
