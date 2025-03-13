@@ -49,4 +49,3 @@ list1 = list(map(int, input("Enter a list of numbers: ").split(" ")))
 ans = permutation(list1)
 for i in ans:
     print(i)
-#.
