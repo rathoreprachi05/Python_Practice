@@ -80,8 +80,4 @@ def fibonacci_series(n):
          n2 = n3
 n = int(input("Enter a number: "))
 fibonacci_series(n)
-#----------------------------------------------------------------        
-         
-         
 
-    
