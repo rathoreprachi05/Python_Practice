@@ -36,6 +36,28 @@ if(n1):
 else:
     print(n, "is not a perfect number")
 
+#---------------------------------------
+
+def check_armstrong_no(n):
+    sum1 = 0
+    length = len(n)
+    for i in n:
+        sum1 += int(i) ** length
+    if(sum1 == int(n)):
+        return True
+    else:
+        return False
+
+n = input("Enter a number: ")
+
+n1 = check_armstrong_no(n)
+if(n1):
+    print(n, "is an armstrong number")
+else:
+    print(n, "is not an armstrong number")
+
+        
+
             
 
 
