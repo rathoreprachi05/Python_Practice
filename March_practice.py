@@ -56,7 +56,7 @@ if(n1):
 else:
     print(n, "is not an armstrong number")
 
-#--------
+#---------------------
 
 def find_fact(n):
     if(n == 0):
