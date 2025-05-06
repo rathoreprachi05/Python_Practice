@@ -9,6 +9,7 @@
 n = int(input("Enter a number:"))
 prime_checker(n)
 
+
 #------------------------------------------------------------------------------------------------
 # Create a program that displays the multiplication table for numbers from 1 to 10 using nested loops.
 def mul_table():
