@@ -62,9 +62,6 @@ math_exp = input("Enter the mathematical expression: ")
 ans = math(math_exp)
 print(ans)
 
-
-#---------
-
 #---------------------------------------------------------------------------
 
 
