@@ -16,6 +16,8 @@ n1 = int(input("Enter number1: "))
 n2 = int(input("Enter number2: "))
 s = input("Enter a symbol: ")
 
+
+
 cal1 = calculate(n1, n2, s)
 print(cal1)
 #----------------------------------------------------
