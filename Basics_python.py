@@ -6,7 +6,7 @@ x1 = (b * -1 + (b * b - 4 * a * c) ** 0.5) / 2 * a
 x2 = (b * -1 - (b * b - 4 * a * c) ** 0.5) / 2 *  a
 print(x1, x2) 
 
-#--------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
 # Write a Python program to validate variable names based on Python's naming conventions.
 
 def checker(variable):
