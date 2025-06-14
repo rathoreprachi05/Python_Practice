@@ -4,6 +4,7 @@ def pour_jug1_to_jug2(jug1, jug2, capacity1, capacity2):
   new_jug1 = max(0, total_water - capacity2)
   return new_jug1, new_jug2  
 
+
 def water_jug_problem():
   jug1, jug2 = 0,0
   capacity1 = int(input("Enter the capacity of jug1: "))
