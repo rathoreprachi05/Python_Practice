@@ -8,7 +8,7 @@ print(x1, x2)
 
 
 
-#-------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
 # Write a Python program to validate variable names based on Python's naming conventions.
 
 def checker(variable):
