@@ -12,6 +12,7 @@ Add(n)
 
 #-----------------------------------------------------------------
 
+
 # Basic function to print next 10 numbers after the given integer
 
 def Add(n):
