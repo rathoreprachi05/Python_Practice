@@ -13,6 +13,7 @@ def hcf_finder(a,b):
     
   else:
     mini = a
+    
   for i in range(1, mini+1, 1):
     if(a % i == 0 and b % i == 0):
       if(i > hcf):
