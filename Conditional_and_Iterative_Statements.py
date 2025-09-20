@@ -41,9 +41,10 @@ collatz_conj(n)
 def permutation(list1):
   if(len(list1) == 1):
     return [list1]
-
   perm = []
+  
   for i in range(0,len(list1),1):
+    
     current = list1[i]
     remaining = list1[0:i] + list1[i+1:] 
     for j in permutation(remaining):
