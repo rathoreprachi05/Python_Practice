@@ -28,7 +28,6 @@ def collatz_conj(n):
       
       n = n/2
     else:
-      
       n = 3 * n + 1
     no_of_steps += 1
   print(no_of_steps)
