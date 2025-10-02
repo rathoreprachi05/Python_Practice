@@ -37,7 +37,9 @@ print(factorial)
 # Create a function that calculates the nth Fibonacci number using recursion.
 def fibonacci_series(n, a=1, b=1):
   if(n == 1 or n == 2):
+    
       return 1
+    
   if(n == 3):
     return a+b
   return fibonacci_series(n-1, b, a+b)
