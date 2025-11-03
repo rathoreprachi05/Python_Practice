@@ -13,9 +13,11 @@ prime_checker(n)
 
 # Create a program that displays the multiplication table for numbers from 1 to 10 using nested loops.
 def mul_table():
+  
   for j in range(1, 11,1):
     for i in range(1, 11,1):
       print(j, "x", i, "=", j*i)
+      
 mul_table()
 
 
