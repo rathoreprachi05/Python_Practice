@@ -5,6 +5,7 @@
         # print(j,"is not a prime number")
         break
     else:
+      
       print(j)
 n = int(input("Enter a number:"))
 prime_checker(n)
